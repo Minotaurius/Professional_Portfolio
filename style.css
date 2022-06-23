@@ -1,14 +1,15 @@
+/*Overriding the default browser CSS */
 * {
     background-color: rgb(67, 70, 75);
     padding: 0;
     margin: 0;
 }
-
+/*Making page take up full browser height */
 html, body {
     height: 100%;
 }
 
-
+/*Header styling on top */
 .header {
     display: flex;
     justify-content: space-between;
@@ -18,12 +19,14 @@ html, body {
     padding: 7px 2%;
 }
 
+/*Name on header bar on left */
 .myname {
     color:lightgray;
     font-weight:bolder;
     font-size: 50px;    
 }
 
+/*Header fpnt and color for links at top on right*/
 header a {
     color:#868C96;
     text-decoration: none;
@@ -32,27 +35,32 @@ header a {
     font-size: 33px;    
 }
 
+/*Hover value for our links on top and bottom of page */
 header a:hover , footer a:hover {
     color: white;
     font-size: 250%;
 }
 
+/*Changing biggest chunk of content to flex and take up 90% of screen vertically */
 main {
     display: flex;
     height: 90%;
 }
 
+/*Setting out text content up, positioning as well as sizing on page*/
 #left-section {
     width: 60%;
     text-align: center;
     padding-top: 100px;
 }
 
+/*Titles above paragraphs */
 section h2 {
     font-size: 50px;
     color: lightgray;
 }
 
+/* Paragraph CSS, formatting and styling */
 section p {
     padding-top: 50px;
     padding-left: 50px;
@@ -62,19 +70,23 @@ section p {
     color: #868C96
 }
 
+/*Some padding to align page better */
 .past-work {
     padding-top: 100px;
 }
 
+/*Alowing our boxes to flew */
 #right-section {
     flex: 1;
 }
 
+/*Img sizing */
 img {
     height: 250px;
     width: 250px;
 }
 
+/* This is for imgs on right side of page. Placing on page and borders */
 section h3 img {
     display: block;
     margin-left: auto;
@@ -101,6 +113,7 @@ footer nav a {
     text-decoration: none;
 }
 
+/* Attempt at making entire page responsive adaptiung to viewport  */
 @media screen (min-width: 400px) {
     html {
         width: 100%
