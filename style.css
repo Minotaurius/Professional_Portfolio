@@ -58,3 +58,15 @@ section p {
 #right-section {
     flex: 1;
 }
+
+section h3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66px;
+    width: 50%;
+    border: 5px solid grey;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px;
+    padding-left: 20px;
+}
