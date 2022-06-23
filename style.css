@@ -8,12 +8,13 @@ html, body {
     height: 100%;
 }
 
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgb(67, 70, 75);
-    color: #868C96
+    color: #868C96;
     padding: 7px 2%;
 }
 
@@ -31,9 +32,14 @@ header a {
     font-size: 33px;    
 }
 
+header a:hover , footer a:hover {
+    color: white;
+    font-size: 250%;
+}
+
 main {
     display: flex;
-    height: 100%;
+    height: 90%;
 }
 
 #left-section {
@@ -48,10 +54,10 @@ section h2 {
 }
 
 section p {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     font-size: 25px;
     color: #868C96
 }
@@ -65,8 +71,8 @@ section p {
 }
 
 img {
-    height: 220px;
-    width: 220px;
+    height: 250px;
+    width: 250px;
 }
 
 section h3 img {
@@ -82,18 +88,21 @@ section h3 img {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+/*I realize this when the page shrinks covers up the rest of the page. Cannot figure out for the life of me why, a question I will bring to office hours tomorrow. */
 footer nav a {
     display: auto;
     justify-content: space-between;
-    align-items: center;
     background: rgb(67, 70, 75);
     color: #868C96;
     padding: 7px 2%;
-    color:#868C96;
     margin-left: 12px;
     padding: 5px;
     font-size: 33px;
     text-decoration: none;
 }
 
+@media screen (min-width: 400px) {
+    html {
+        width: 100%
+    }
+}
