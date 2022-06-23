@@ -39,7 +39,7 @@ main {
 #left-section {
     width: 60%;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 section h2 {
@@ -48,25 +48,52 @@ section h2 {
 }
 
 section p {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 30px;
+    padding-bottom: 20px;
+    font-size: 25px;
     color: #868C96
+}
+
+.past-work {
+    padding-top: 100px;
 }
 
 #right-section {
     flex: 1;
 }
 
+img {
+    height: 220px;
+    width: 220px;
+}
+
 section h3 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 66px;
+    margin-top: 20px;
     width: 50%;
     border: 5px solid grey;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px black;
     padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+footer nav a {
+    display: auto;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(67, 70, 75);
+    color: #868C96;
+    padding: 7px 2%;
+    color:#868C96;
+    margin-left: 12px;
+    padding: 5px;
+    font-size: 33px;
+    text-decoration: none;
+}
+
