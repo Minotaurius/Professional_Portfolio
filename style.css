@@ -1,0 +1,45 @@
+* {
+    background-color: rgb(67, 70, 75);
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(67, 70, 75);
+    color: #868C96
+    padding: 7px 2%;
+}
+
+.myname {
+    color:#868C96;
+    font-weight:bolder;
+    font-size: 50px;    
+}
+
+header a {
+    color:#868C96;
+    text-decoration: none;
+    margin-right: 12px;
+    padding: 5px;
+    font-size: 33px;    
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+#left-section {
+    width: 80%;
+}
+
+#right-section {
+    flex: 1;
+}
