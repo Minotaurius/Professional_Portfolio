@@ -18,7 +18,7 @@ html, body {
 }
 
 .myname {
-    color:#868C96;
+    color:lightgray;
     font-weight:bolder;
     font-size: 50px;    
 }
@@ -37,7 +37,22 @@ main {
 }
 
 #left-section {
-    width: 80%;
+    width: 60%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+section h2 {
+    font-size: 50px;
+    color: lightgray;
+}
+
+section p {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    color: #868C96
 }
 
 #right-section {
