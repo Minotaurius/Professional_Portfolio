@@ -49,9 +49,11 @@ main {
 
 /*Setting out text content up, positioning as well as sizing on page*/
 #left-section {
+    display: block;
     width: 60%;
     text-align: center;
     padding-top: 100px;
+    justify-content: space-between;
 }
 
 /*Titles above paragraphs */
